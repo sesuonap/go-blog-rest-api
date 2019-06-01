@@ -51,6 +51,7 @@ func handleRequests() {
 }
 func main() {
 	fmt.Println("Standard Rest API - Mux Router")
+	fmt.Println("Open a web browser and visit 'http://localhost:10001'")
 
 	BlogPosts = []BlogPost{
 		BlogPost{ID: "1", Title: "First Post", Content: "lorem ipsum"},
